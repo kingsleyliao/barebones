@@ -14,8 +14,11 @@ GooglePlus API**
 ## High Level Architecture
 This app is built on Express/Node, React/Redux, Mongoose/MongoDb, and MaterializeCSS.
 
-Sessions are managed with [cookie-session](https://github.com/expressjs/cookie-session).
-Google authentication strategy [googleOAuth20](https://github.com/google/google-api-nodejs-client).
-MongoDB implemented with [mongoose](http://mongoosejs.com/).
-CSS library [MaterializeCSS](http://materializecss.com/).
-Testing libraries are [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
+- React: [React](https://github.com/facebook/react)
+- Redux: [Redux](https://github.com/reactjs/redux)
+- Express: [Express](https://github.com/expressjs/express)
+- Sessions: [cookie-session](https://github.com/expressjs/cookie-session)
+- OAuth20: [Google](https://github.com/google/google-api-nodejs-client)
+- MongoDB: [mongoose](http://mongoosejs.com/)
+- CSS: [MaterializeCSS](http://materializecss.com/)
+- Testing: [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai)
