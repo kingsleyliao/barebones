@@ -18,3 +18,4 @@ Sessions are managed with [cookie-session](https://github.com/expressjs/cookie-s
 Google authentication strategy [googleOAuth20](https://github.com/google/google-api-nodejs-client).
 MongoDB implemented with [mongoose](http://mongoosejs.com/).
 CSS library [MaterializeCSS](http://materializecss.com/).
+Testing libraries are [mocha](https://github.com/mochajs/mocha) and [chai](https://github.com/chaijs/chai).
