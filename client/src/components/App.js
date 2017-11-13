@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from '../actions';
 import Header from './Header';
 import Landing from './Landing';
+import Home from './Home';
 import { AuthRoute, ProtectedRoute } from '../utils/routeUtils';
 
 class App extends Component {
@@ -17,7 +18,8 @@ class App extends Component {
         <div>
           <Header />
           <Switch>
-            <Route exact path="/" component={Landing} />
+            <AuthRoute exact path="/" component={Landing} />
+            <ProtectedRoute exact path="/home" component={Home} />
           </Switch>
         </div>
       </BrowserRouter>

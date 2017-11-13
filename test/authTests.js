@@ -1,11 +1,11 @@
 process.env.NODE_ENV = 'test';
-const app = require('../index.js');
+const app = require('../server.js');
 const request = require('supertest');
 const expect = require('chai').expect;
 const baseUrl = "http://localhost:3000";
 
 const userCredentials = {
-  email: '',
+  email: 'email@example.com',
   password: 'password'
 };
 

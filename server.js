@@ -27,6 +27,7 @@ app.use(passport.session());
 
 require('./routes/authRoutes')(app);
 require('./routes/userRoutes')(app);
+require('./routes/homeRoutes')(app);
 
 const PORT = process.env.NODE_ENV === 'test' ? 8001 : 8000;
 
